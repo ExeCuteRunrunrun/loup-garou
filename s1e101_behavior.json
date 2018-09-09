@@ -1,0 +1,86 @@
+[
+  {
+    "stage":"initial",
+    "dispositive":{
+      "character_pattern": {"n_villager": 4, "n_god": 4, "ordinary_werewolf": 4, "white_wolf": 0, "seer": 1, "witch": 1, "hunter": 0, "idiot": 0, "ancient": 1, "assassin": 1, "savior": 0, "part-to-kill":"True", "witch_can_save_herself":"True"},
+      "night_death":[],
+      "forbidden":[],
+      "candidates": [],
+      "non_candidates":[],
+      "speech_order":[],
+      "still_candidates": [],
+      "order_succession_captain": [],
+      "votes": [{}],
+      "player_alive": ["alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive"],
+      "character_distribution":["UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK"]
+    }
+  },
+  {
+    "stage":"captain_election",
+    "dispositive":{
+      "character_pattern": {"n_villager": 4, "n_god": 4, "ordinary_werewolf": 4, "white_wolf": 0, "seer": 1, "witch": 1, "hunter": 0, "idiot": 0, "ancient": 1, "assassin": 1, "savior": 0, "part-to-kill":"True", "witch_can_save_herself":"True"},
+      "night_death":[],
+      "forbidden":[],
+      "candidates": ["1", "2", "5", "9", "12"],
+      "non_candidates":["3", "4", "6", "7", "8", "10", "11"],
+      "speech_order":["2", "5", "9", "12", "1"],
+      "still_candidates": ["2", "9"],
+      "order_succession_captain": [{"2":["7", "5"], "9":["5", "11"]}],
+      "call_vote":[],
+      "votes": [{"3": "None", "4": "None", "6": "9", "7": "9", "8": "9", "10": "9", "11": "9"}],
+      "player_alive": ["alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive", "alive", "Captain", "alive", "alive", "alive"],
+      "character_distribution":["UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK"]
+    }
+  },
+  {
+    "stage":"day1_speech",
+    "dispositive":{
+      "character_pattern": {"n_villager": 4, "n_god": 4, "ordinary_werewolf": 4, "white_wolf": 0, "seer": 1, "witch": 1, "hunter": 0, "idiot": 0, "ancient": 1, "assassin": 1, "savior": 0, "part-to-kill":"True", "witch_can_save_herself":"True"},
+      "night_death":[],
+      "forbidden":["5"],
+      "candidates": [],
+      "non_candidates":[],
+      "speech_order":["8", "7", "6", "5", "4", "3", "2", "1", "12", "2"],
+      "still_candidates": [],
+      "order_succession_captain": [{"9":["5", "11"]}],
+      "call_vote":[],
+      "votes": [{}],
+      "player_alive": ["alive", "alive", "suicide", "alive", "alive", "alive", "alive", "alive", "alive", "Captain", "alive", "alive", "alive"],
+      "character_distribution":["UNK", "UNK", "werewolf", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK"]
+    }
+  },
+  {
+    "stage":"day2_speech",
+    "dispositive":{
+      "character_pattern": {"n_villager": 4, "n_god": 4, "ordinary_werewolf": 4, "white_wolf": 0, "seer": 1, "witch": 1, "hunter": 0, "idiot": 0, "ancient": 1, "assassin": 1, "savior": 0, "part-to-kill":"True", "witch_can_save_herself":"True"},
+      "night_death":["3","9"],
+      "forbidden":["4"],
+      "candidates": [],
+      "non_candidates":[],
+      "speech_order":["6", "7", "8", "10", "11", "12", "1", "5"],
+      "still_candidates": [],
+      "order_succession_captain": [],
+      "call_vote":[],
+      "votes": [{"1": "6", "5": "8", "6": "6" ,"7": "8", "8": "6", "10": "11", "11": "6", "12": "6"}],
+      "player_alive": ["alive", "alive", "suicide", "eliminated", "alive", "Captain", "executed", "alive", "alive", "eliminated", "alive", "alive", "alive"],
+      "character_distribution":["UNK", "UNK", "werewolf", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK"]
+    }
+  },
+  {
+    "stage":"day3_speech",
+    "dispositive":{
+      "character_pattern": {"n_villager": 4, "n_god": 4, "ordinary_werewolf": 4, "white_wolf": 0, "seer": 1, "witch": 1, "hunter": 0, "idiot": 0, "ancient": 1, "assassin": 1, "savior": 0, "part-to-kill":"True", "witch_can_save_herself":"True"},
+      "night_death":["1","11"],
+      "forbidden":["12"],
+      "candidates": [],
+      "non_candidates":[],
+      "speech_order":["7", "8", "10", "4", "5"],
+      "still_candidates": [],
+      "order_succession_captain": [],
+      "call_vote":["4"],
+      "votes": [{"4": "8", "5": "4","7": "4", "8": "4", "10": "4"}],
+      "player_alive": ["alive", "eliminated", "suicide", "executed", "alive", "Captain", "executed", "alive", "alive", "eliminated", "alive", "eliminated", "alive"],
+      "character_distribution":["UNK", "UNK", "werewolf", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK", "UNK"]
+    }
+  }
+]
