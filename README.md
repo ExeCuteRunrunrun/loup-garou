@@ -65,3 +65,7 @@ Data noted down manually from the TV show Pandakill.
 
 
 **speech_summary_final.ipynb** uses the results of intent classification task, along with the syntax parsing with HaNLP to get precise sentence meaning, then to summarize the speech turn of each player. It then uses these information to construct a configuration of the game situation. Along with the behavior record information, it then calculates the penalty score of each possible wolf team every speech turn. The team who gets the least penalty score is the predicted wolf team.
+
+
+
+**qui-sont-les-loups-garou.pdf** the PPT for my defense
